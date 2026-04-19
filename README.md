@@ -12,13 +12,13 @@ The objective of this project is to implement a basic Federated Learning pipelin
 A simple fully connected neural network is used for MNIST digit classification.
 
 ### Federated Setup
-Multiple clients simulate distributed devices
-Each client trains locally on its dataset
-A central model aggregates updates using FedAvg
+* Multiple clients simulate distributed devices
+* Each client trains locally on its dataset
+* A central model aggregates updates using FedAvg
 
 ### Data Distribution
-IID-style split: Random distribution of samples across clients
-Non-IID-style split: Clients receive biased subsets of digit classes 
+* IID-style split: Random distribution of samples across clients
+* Non-IID-style split: Clients receive biased subsets of digit classes 
 
 ## Observations
 IID-style distribution leads to faster and more stable convergence
